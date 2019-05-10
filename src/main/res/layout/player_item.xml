@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<com.raiyan.videodownload.Instant_VideoImage-->
+        <!--android:id="@+id/video_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+    <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+        android:id="@+id/video_player"
+        android:layout_width="match_parent"
+        app:use_controller="false"
+        android:layout_height="match_parent"/>
+
+    <!--<com.google.android.exoplayer2.ui.PlayerView-->
+        <!--android:id="@+id/video_player"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+    <!--<VideoView-->
+
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:src="@color/colorAccent"-->
+        <!--android:id="@+id/image_view"-->
+        <!--/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_page_number"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:text="1"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="96sp"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintBottom_toBottomOf="@+id/image_view"-->
+        <!--app:layout_constraintEnd_toEndOf="@+id/image_view"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/image_view"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/image_view" />-->
+
+</android.support.constraint.ConstraintLayout>
